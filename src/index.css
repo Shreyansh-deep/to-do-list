@@ -1,0 +1,289 @@
+.all {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -10px;
+  margin-right: -8px;
+  background-color: #e8f8fb;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.header h1 {
+  font-family: "Audiowide", sans-serif;
+}
+.logo{
+  display: flex;
+}
+.header--image {
+  width: 85px;
+  height: auto;
+  margin-right: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.avatar{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 50px;
+}
+.main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #84ceeb;
+  
+}
+.calendar--container {
+  margin-right: 50px;
+  padding: 40px;
+}
+.react-calendar { 
+  width: 400px;
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+ }
+ .react-calendar__navigation button {
+  color: #6f48eb;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+ }
+ .react-calendar__navigation button:enabled:hover,
+ .react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+ }
+ abbr[title] {
+  text-decoration: none;
+ }
+ .react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+ } 
+ .react-calendar__tile:enabled:hover,
+ .react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #6f48eb;
+  border-radius: 6px;
+ }
+ .react-calendar__tile--now {
+  background: #6f48eb33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #6f48eb;
+ }
+ .react-calendar__tile--now:enabled:hover,
+ .react-calendar__tile--now:enabled:focus {
+  background: #6e91b133;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #6f48eb;
+ }
+ .react-calendar__tile--hasActive:enabled:hover,
+ .react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa;
+ }
+ .react-calendar__tile--active {
+  background: #6f48eb;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+ }
+ .react-calendar__tile--active:enabled:hover,
+ .react-calendar__tile--active:enabled:focus {
+  background: #6f48eb;
+  color: white;
+ }
+ .react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #6f48eb;
+  border-radius: 0;
+ }
+ .react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #6f48eb;
+  color: white;
+ }
+ .react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #6f48eb;
+  color: white;
+ }
+ .text-center {
+  
+  padding: 20px;
+  border-radius: 5px;
+}
+.input--box {
+  border-width: 3px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #b0f0f7;
+}
+
+.input--btn{
+  border-width: 3px;
+  border-radius: 15px;
+  margin-left: 10px;
+  background-color: #fff;
+  pointer-events: auto;
+}
+.add-block {
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+  margin-left: 60px;
+
+}
+.work-rows{
+  display: flex;
+  justify-content: space-between;
+}
+.list-of-work {
+  width: 300px;
+  border: 1px solid #222;
+  border-radius: 3px;
+  padding: 15px;
+  padding-left: 28px;
+  background-color: #b0f0f7;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.list-of-work-title {
+  font-family: "Audiowide", sans-serif;
+}
+.add--colomn {
+  display: flex;
+  flex-direction: column;
+}
+.prev-and-next-btn {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  padding-top: 50px;
+}
+.prev-btn{
+  border: 2px solid #222;
+  border-radius: 10px;
+  background-color: #c1c8e4;
+}
+.next-btn{
+  border: 2px solid #222;
+  border-radius: 10px;
+  background-color: #c1c8e4;
+}
+.dlt-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: .5em;
+  height: 1em;
+  border-radius: 5px;
+}
+.add {
+  max-height: 24.4px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.app-bar {
+  display: flex;
+  margin: 0px;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #e8f8fb;
+  color: #222;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 50px;
+}
+.logo img {
+  border-radius: 5px;
+}
+.logo h2 {
+  padding-left: 10px;
+  font-size: 25px;
+  font-family: "Audiowide", sans-serif;
+}
+.sign-in {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.background {
+  width: 60%;
+  height: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  opacity: .6;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+.hero h1 {
+  align-self: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 80px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+.signup-detail {
+  display: flex;
+  margin-top: 50px;
+}
+.signupDetailWithPhoto {
+  display: flex;
+  justify-content: space-around; 
+}
+.signUpNav {
+  display: flex;
+  margin-left: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding-left: 50px;
+  background-color: #e8f8fb;
+}
+.signUpNav img {
+  border-radius: 10px;
+}
+.signUpBackground {
+  border-radius: 15px;
+  opacity: .7;
+  margin-right: 30px; 
+}
+.signUpNav h1 {
+  font-family: "Audiowide", sans-serif;
+}
